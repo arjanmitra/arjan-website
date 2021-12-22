@@ -4,6 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
+#app {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 body {
   background: linear-gradient(-90deg, #fe621d, #e996b6, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -101,8 +106,6 @@ div {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
   font-size: xx-large;
-  padding: 300px;
-  padding-bottom: 300px;
 }
 #header {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
