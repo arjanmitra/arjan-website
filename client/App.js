@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div>
       <LandingPage />
-      <Projects />
-      <AboutMe />
+      {/* <Projects /> */}
+      {/* <AboutMe /> */}
     </div>
   );
 };

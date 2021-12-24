@@ -45,7 +45,7 @@ const LandingPage = () => {
           <img src="public/assets/instalogo.png" />
         </button>
       </a>
-      <div id="normaltext">Otherwise, keep scrolling.</div>
+      {/* <div id="normaltext">Otherwise, keep scrolling.</div> */}
     </div>
   );
 };
